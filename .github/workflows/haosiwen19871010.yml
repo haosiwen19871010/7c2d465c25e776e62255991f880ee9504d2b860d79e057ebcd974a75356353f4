@@ -3,7 +3,7 @@ name: haosiwen19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
+    - cron: '41 2/6 * * *'
 
 jobs:
   build:
@@ -13,18 +13,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: haosiwen19871010
         env:
-          gwan87: ${{ secrets.gwan87 }}
+          bddw77: ${{ secrets.bddw77 }}
         run: |
-          echo $gwan87 | jq -r .vat3 | /bin/bash
-          echo $elwv858 | jq -r .kj943 | /bin/bash
-          echo $ds55 | jq -r .nftu72 | /bin/bash
-          echo $jaf12563 | jq -r .f6341 | /bin/bash
-          echo $ydau9 | jq -r .oma25805 | /bin/bash
-          echo $fya061 | jq -r .jrxbq8396 | /bin/bash
-          echo $ut89 | jq -r .unrg74229 | /bin/bash
-          echo $qqv1415 | jq -r .utyo96 | /bin/bash
-          echo $q850 | jq -r .qy0390 | /bin/bash
-          echo $vm64150 | jq -r .nri46 | /bin/bash
-          echo $f18982 | jq -r .zz3166 | /bin/bash
-          echo $he0 | jq -r .jjz8 | /bin/bash
+          echo $bddw77 | jq -r .v01511 | /bin/bash
+          echo $n0825 | jq -r .m65110 | /bin/bash
+          echo $cs690 | jq -r .saew0 | /bin/bash
+          echo $cfs77 | jq -r .u99 | /bin/bash
+          echo $p64369 | jq -r .gzg21 | /bin/bash
+          echo $whvem3 | jq -r .awwl8 | /bin/bash
 
