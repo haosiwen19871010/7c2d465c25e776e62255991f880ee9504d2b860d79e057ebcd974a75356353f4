@@ -2,7 +2,8 @@ name: haosiwen19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
+    - cron: '1 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: haosiwen19871010
         env:
-          uo0623: ${{ secrets.uo0623 }}
+          li0: ${{ secrets.li0 }}
         run: |
-          echo $uo0623 | jq -r .moy621 | /bin/bash
-          echo $cjqpj8 | jq -r .ffqq7 | /bin/bash
-          echo $app29 | jq -r .s5 | /bin/bash
-          echo $mye493 | jq -r .ojsho1059 | /bin/bash
-          echo $ytz8087 | jq -r .lzpv489 | /bin/bash
+          echo $li0 | jq -r .vraxd793 | /bin/bash
+          echo $m69 | jq -r .rpdui3 | /bin/bash
+          echo $kox074 | jq -r .s89 | /bin/bash
+          echo $cx70837 | jq -r .oaksg787 | /bin/bash
+          echo $vpr3 | jq -r .tyqeg76887 | /bin/bash
+          echo $i52015 | jq -r .iw03 | /bin/bash
+          echo $mi4501 | jq -r .ybbaw1 | /bin/bash
+          echo $zcs745 | jq -r .ituy93 | /bin/bash
+          echo $dqemt176 | jq -r .yb032 | /bin/bash
 
